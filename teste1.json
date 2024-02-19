@@ -1,0 +1,69 @@
+[
+    {
+        "name": "id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "policyTags": {
+            "names": [
+                "projects/projeto/locations/us-east1/taxonmies/1234/policyTags/1231423"
+            ]
+        }
+    },
+    {
+        "name": "first_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "last_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "dob",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "addresses",
+        "type": "RECORD",
+        "mode": "REPEATED",
+        "fields": [
+            {
+                "name": "status",
+                "type": "STRING",
+                "mode": "NULLABLE",
+                "policyTags": {
+                    "names": [
+                        "projects/projeto/locations/us-east1/taxonmies/1234/policyTags/1231423"
+                    ]
+                }
+            },
+            {
+                "name": "address",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "city",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "state",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "zip",
+                "type": "STRING",
+                "mode": "\u00c3\u2030S\u00c3\u201cTESTE"
+            },
+            {
+                "name": "numberOfYears",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            }
+        ]
+    }
+]
